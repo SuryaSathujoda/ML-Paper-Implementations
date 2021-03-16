@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-import torchvision.transforms as transforms
 
 class Block(nn.Module):
     def __init__(self, in_c, out_c):
